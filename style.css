@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: #f9f9ff;
+}
+
+h1 {
+  color: #333;
+}
+
+.malla {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+  margin: 30px auto;
+  max-width: 900px;
+}
+
+.ramo {
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.aprobado {
+  background-color: #4CAF50;
+}
+
+.curso {
+  background-color: #FF9800;
+}
+
+.pendiente {
+  background-color: #9E9E9E;
+}
+
+.ramo small {
+  display: block;
+  margin-top: 5px;
+  font-weight: normal;
+  font-size: 0.85em;
+  color: #f1f1f1;
+}
+
+.leyenda {
+  font-size: 1rem;
+  margin-top: 20px;
+  }
